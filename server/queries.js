@@ -141,7 +141,7 @@ export const getGoalById = async (id) => {
 /**
  * @param {string} description - Goal description (e.g., "Bench press 225 lbs")
  * @param {string} targetDate - Optional target date (YYYY-MM-DD format)
- * @param {boolean} isComplete - Whether the goal is complete (default: false)
+ * @param {boolean} isComplete - Whether the goal is complete 
  * create our goals with certain criterias in mind
  */
 export const createGoal = async (description, targetDate = null, isComplete = false) => {
