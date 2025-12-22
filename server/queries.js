@@ -9,7 +9,7 @@ const pool = new Pool({
   port: process.env.DB_PORT || 5432,
 });
 
-// ========== WORKOUT CRUD OPERATIONS ==========
+// workout CRUD methods
 
 // returns an array of all workouts in our database
 

@@ -170,7 +170,19 @@ app.delete('/api/goals/:id', async (req, res) => {
     } catch (error) {
       res.status(500).json({ error: error.message });
     }
-  });
+});
+
+
+// test to ensure localhost is running
+app.get('/', (request,response) => {
+    response.json({
+        message: "Fitness Tracker API working",
+        endpoints: {
+            workouts: '/api/workouts',
+            goals: '/api/goals'
+        }
+    });
+});
 
 // starts the server 
 app.listen(PORT, () => {
