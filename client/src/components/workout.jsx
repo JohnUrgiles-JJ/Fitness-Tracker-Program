@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config.js';
 
-const API_URL = 'http://localhost:3001/api';
 
 function Workout() {
   const [workouts, setWorkouts] = useState([]);

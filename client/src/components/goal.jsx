@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-
-const API_URL = 'http://localhost:3001/api';
+import API_URL from '../config.js';
 
 function Goal() {
   const [goals, setGoals] = useState([]);
