@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './Workout.css';
 
 const API_URL = 'http://localhost:3001/api';
 
@@ -146,7 +145,7 @@ function Workout() {
             type="text"
             value={form.name}
             onChange={(e) => setForm({ ...form, name: e.target.value })}
-            placeholder="e.g., Push Day, Leg Day"
+            placeholder="e.g., Bench Press, Squat, Core"
             required
           />
         </div>

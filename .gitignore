@@ -1,1 +1,63 @@
+# Environment variables 
 .env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.client/dist/
+.server/dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.DS_Store
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Optional: Backup files
+*.bak
+*.backup
+*~
